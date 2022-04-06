@@ -17,7 +17,7 @@ while True:
         time_count.append(t)
         photodiode_level.append(pd)
         print(pd)
-        time.sleep(0.1)
+        time.sleep(0.05)
     except KeyboardInterrupt:
         print("ki")
         break

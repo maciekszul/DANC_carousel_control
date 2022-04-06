@@ -9,5 +9,5 @@ while True:
     for ix in gpios:
         board.digital[ix].write(0)
         board.digital[ix].write(1)
-        time.sleep(1)
+        time.sleep(0.2)
         board.digital[ix].write(0)
